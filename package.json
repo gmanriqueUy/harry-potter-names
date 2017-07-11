@@ -1,0 +1,27 @@
+{
+  "name": "harry-potter-names",
+  "version": "1.0.0",
+  "description": "Get random Harry Potter names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmanriqueUy/harry-potter-names.git"
+  },
+  "keywords": [
+    "random",
+    "harry",
+    "potter"
+  ],
+  "author": "Gonzalo Manrique <gonzalo@newtrino.uy> (https://newtrino.uy/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gmanriqueUy/harry-potter-names/issues"
+  },
+  "homepage": "https://github.com/gmanriqueUy/harry-potter-names#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}

@@ -22,9 +22,15 @@ yarn add harry-potter-names
 ```javascript
 let harryPotterNames = require('harry-potter-names');
 
-// To get array of names
+// To get array of all names
 console.log(harryPotterNames.all);
 
-// To get a random name
+// To get a random name (a string, of course)
 console.log(harryPotterNames.random());
+
+// The random function accepts a number to get an array of random names
+console.log(harryPotterNames.random(5));
 ```
+
+## Other
+This library was developed following [this course](https://egghead.io/courses/how-to-write-an-open-source-javascript-library) made by the amazing [Kent C. Dodds](https://twitter.com/kentcdodds).

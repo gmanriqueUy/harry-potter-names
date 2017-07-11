@@ -27,5 +27,13 @@ describe('Harry Potter names', function() {
 
       expect(harryPotterNames.all).to.include(randomItem);
     });
+
+    it('should return a random array of random items if passed a number', function() {
+      let randomItems = harryPotterNames.random(3);
+      expect(randomItems).to.have.lengthOf(3);
+      randomItems.forEach(item => {
+        expect(harryPotterNames.all).to.include(item);
+      });
+    });
   });
 });

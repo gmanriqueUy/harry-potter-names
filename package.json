@@ -4,6 +4,7 @@
   "description": "Get random Harry Potter names",
   "main": "src/index.js",
   "scripts": {
+    "precommit": "npm run test:single",
     "commit": "git-cz",
     "test": "mocha src/index.test.js -w",
     "test:single": "mocha src/index.test.js",
@@ -31,10 +32,13 @@
     "chai": "4.0.2",
     "commitizen": "2.9.6",
     "cz-conventional-changelog": "2.0.0",
+    "husky": "0.14.3",
     "mocha": "3.4.2",
     "semantic-release": "^6.3.6"
   },
-  "czConfig": {
-    "path": "node_modules/cz-conventional-changelog"
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
   }
 }

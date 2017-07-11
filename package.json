@@ -4,8 +4,8 @@
   "description": "Get random Harry Potter names",
   "main": "src/index.js",
   "scripts": {
-    "pre-commit": "npm run test:single",
-    "commit": "git-cz",
+    "precommit": "npm run test:single",
+    "cz": "git-cz",
     "test": "mocha src/index.test.js -w",
     "test:single": "mocha src/index.test.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"

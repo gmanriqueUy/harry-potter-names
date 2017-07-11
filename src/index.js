@@ -1,7 +1,7 @@
-const
-uniqueRandomArray = require('unique-random-array'),
-harryPotterNames = require('./harry-potter-names.json'),
-getRandomItem = uniqueRandomArray(harryPotterNames);
+import uniqueRandomArray from 'unique-random-array';
+import harryPotterNames from './harry-potter-names.json';
+
+const getRandomItem = uniqueRandomArray(harryPotterNames);
 
 module.exports = {
   all: harryPotterNames,

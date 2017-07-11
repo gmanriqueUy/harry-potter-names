@@ -1,8 +1,5 @@
-const
-
-expect = require('chai').expect,
-
-harryPotterNames = require('./index');
+import {expect} from 'chai';
+import harryPotterNames from './index';
 
 describe('Harry Potter names', function() {
   describe('all', function() {
